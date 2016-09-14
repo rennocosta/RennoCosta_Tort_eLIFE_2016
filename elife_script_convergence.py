@@ -81,7 +81,8 @@ def main(argv):
     parser.add_argument('lrate_lec_hpc', metavar='lrate_lec_hpc', type=int, nargs=1,
                    help='lrate_lec_hpc')    
                    
-    # relative values for the populations inputs: mec ratio () 
+    # relative values for the populations inputs: mec ratio (recurrent vs place cell input); 
+    # hpc ratio (grid cell vs non-gridcell input);  hippocampus pattern completion threshold
          
     parser.add_argument('mec_ratio', metavar='mec_ratio', type=int, nargs=1,
                    help='MEC ratio (x100)')

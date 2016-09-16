@@ -11,8 +11,11 @@ List of files
 1) model scripts
 
 elife_script_convergence.py       : model script for the simulations of the first theta cycle
+
 elife_script_morph.py             : model script with whole exploration of the envrionment
+
 elife_script_morph_noise.py       : model script, similar to previous, but with different input noise values
+
 elife_script_morph_consistency.py : model script, similar to previous, but with different input consistency values
 
 2) simulation scripts

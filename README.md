@@ -38,9 +38,9 @@ elife_lfigureplot_4s2.py   : script to plot figure 4 sup 2
 
 elife_lfigureplot_5.py     : script to plot figure 5 and 5 sup 2 to 9
 
-elife_lfigureplot_6A.py    : script to plot figure 6 and 6 sup 1, A and B
+elife_lfigureplot_6.py    : script to plot figure 6 and 6 sup 1
 
-elife_lfigureplot_6C.py    : script to plot figure 6 and 6 sup 1, C and D
+
 
 
 b. full dataset ( files under preparation : due 20 Sep 2016 )
@@ -60,9 +60,8 @@ elife_figureplot_5.py     : script to plot figure 5 and 5 sup 2 to 9
 
 elife_figureplot_5s1.py   : script to plot figure 5 sup 1
 
-elife_figureplot_6A.py    : script to plot figure 6 and 6 sup 1, A and B
+elife_figureplot_6.py    : script to plot figure 6 and 6 sup 1
 
-elife_figureplot_6C.py    : script to plot figure 6 and 6 sup 1, C and D
 
 4) support scripts
 

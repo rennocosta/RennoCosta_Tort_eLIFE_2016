@@ -23,7 +23,7 @@ filenames = rfn.remappingFileNames(envir)
 
 # %%
 
-seed_input = arange(8)
+seed_input = arange(11)
 seed_www = arange(1)
 seed_path = 0
 
@@ -169,7 +169,7 @@ plt.pcolormesh(np.array(rrr),np.array(rrr2),aa,vmin = 0, vmax=1)
 
 plt.savefig('Figures/rennocostatort_elife_fig3s1A.eps', format='eps', dpi=1000)
 
-# %%  Average number of cycles < 7 - After Learning
+# %%  Average number of cycles < 4 - After Learning
 
 rrr = reference3;
 rrr2 = reference4;
@@ -247,7 +247,7 @@ plt.savefig('Figures/rennocostatort_elife_fig3s1B1nu.eps', format='eps', dpi=100
 
 # %%
 
-seed_input = arange(8)
+seed_input = arange(11)
 seed_www = arange(1)
 seed_path = 0
 
@@ -424,7 +424,7 @@ plt.savefig('Figures/rennocostatort_elife_fig3s1B2nu.eps', format='eps', dpi=100
 
 # %%
 
-seed_input = arange(8)
+seed_input = arange(11)
 seed_www = arange(1)
 seed_path = 0
 
@@ -604,7 +604,7 @@ plt.savefig('Figures/rennocostatort_elife_fig3s1B3nu.eps', format='eps', dpi=100
 
 # %%
 
-seed_input = arange(8)
+seed_input = arange(11)
 seed_www = arange(1)
 seed_path = 0
 

@@ -165,7 +165,7 @@ plt.ylim((0.65,1.05))
 plt.xlim((-0.1,4.1))   
 
 
-plt.savefig('Figures/rennocostatort_elife_fig3A.eps', format='eps', dpi=1000)
+plt.savefig('Figures/rennocostatort_elife_fig3A1.eps', format='eps', dpi=1000)
 
 
 # %%
@@ -201,8 +201,45 @@ plt.ylim((0.65,1.05))
 plt.xlim((-0.1,4.1))   
 
 
-plt.savefig('Figures/rennocostatort_elife_fig3B.eps', format='eps', dpi=1000)
+plt.savefig('Figures/rennocostatort_elife_fig3A2.eps', format='eps', dpi=1000)
 
 
+# %%
 
+aaa = np.mean(ccMECconvergetime[:,:,:,0],axis = 0)
+
+plot(np.linspace(1.0,0.0,morphnum),aaa[0,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[1,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[2,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[3,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[4,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[5,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[10,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[20,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[30,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[40,:],color='r')
+
+plt.ylim((0.5,4.0)) 
+
+plt.savefig('Figures/rennocostatort_elife_fig3B1.eps', format='eps', dpi=1000)
+
+
+# %%
+
+aaa = np.mean(ccHPCconvergetime[:,:,:,0],axis = 0)
+
+plot(np.linspace(1.0,0.0,morphnum),aaa[0,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[1,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[2,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[3,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[4,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[5,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[10,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[20,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[30,:],color='r')
+plot(np.linspace(1.0,0.0,morphnum),aaa[40,:],color='r')
+
+plt.ylim((-0.5,3.0)) 
+
+plt.savefig('Figures/rennocostatort_elife_fig3B2.eps', format='eps', dpi=1000)
 
